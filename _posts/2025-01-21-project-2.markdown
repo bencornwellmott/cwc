@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 2
+date: 2025-04-31
+img: cabin.png
+alt: image-alt
+project-date: July 2019
+client: Confidential
+category: Traditional Knowledge & Land Use Study
+description: I supported a community in documenting their traditional knowledge and land use. They were happy with it.
+---
