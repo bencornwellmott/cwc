@@ -82,8 +82,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.primary }};
+    background: #fff;
 }
 
 header .container {
@@ -93,7 +93,7 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 0;
 }
 
 header .intro-text .name {
@@ -126,32 +126,50 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 30px 0px;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
-    .navbar-fixed-top .navbar-brand {
+    .navbar-fixed-top .navbar-brand img{
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+		display: none;
     }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
+    .navbar-fixed-top.navbar-shrink .navbar-brand img {
         font-size: 1.5em;
+		width: 60%;
+		
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s;
+		display: inline;
     }
 }
 
+.navbar-brand {
+	padding: 0px 0px 0px 0px;
+}
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+	background-image: url("img/nav_bar.png");
+	background-size: 100%;
+    background-color: #fff;
+}
+
+.navbar-header {
+	display: inline;
+	width: 50%
 }
 
 .navbar a:focus {
@@ -297,11 +315,18 @@ section.success {
     background: #fff;
 }
 
+.form-control::placeholder {
+  color: #fff;
+}
+
+.contact-label {
+	color: #fff !important;
+}
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #{{ site.color.secondary }};
 }
 
 .floating-label-form-group input,
@@ -314,6 +339,7 @@ section.success {
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
+	color: #fff;
     box-shadow: none!important;
     resize: none;
 }
@@ -337,7 +363,7 @@ section.success {
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid #eee;
+    border-left: 1px solid #{{ site.color.secondary }};
 }
 
 .floating-label-form-group-with-value label {
@@ -349,8 +375,9 @@ section.success {
     color: #{{ site.color.primary }};
 }
 
+
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #{{ site.color.secondary-dark }};
 }
 
 footer {
