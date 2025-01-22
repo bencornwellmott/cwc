@@ -1,0 +1,12 @@
+---
+title: Traditional (Indigenous) Knowledge Studies
+layout: default
+modal-id: 3
+date: 2025-01-11
+img: icon_traditional-knowledge.png
+alt: image-alt
+project-date: April 2022
+client: Confidential
+category: Traditional Knowledge
+---
+I have engaged with numerous communities to document their Traditional (Indigenous) knowledge and land use data collection and assisting in integration with western science and into planning processes.

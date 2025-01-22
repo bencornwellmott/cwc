@@ -1,11 +1,12 @@
 ---
+title: Aboriginal Treaty Rights and Interests
 layout: default
 modal-id: 2
 date: 2025-01-11
-img: cabin.png
+img: icon_environmental-assessment.png
 alt: image-alt
 project-date: July 2019
 client: Confidential
-category: Traditional Knowledge & Land Use Study
+category: Environmental Assessment
 ---
-I supported a community in documenting their traditional knowledge and land use. They were happy with it.
+I co-led the Aboriginal Treaty Rights and Interests for a major development project on behalf of an Indigenous community, leading to engagement with more than 20 other indigenous bands.

@@ -1,11 +1,12 @@
 ---
+title: Environmental Management Plans
 layout: default
 modal-id: 1
 date: 2025-01-11
-img: cabin.png
+img: icon_environmental-planning.png
 alt: image-alt
 project-date: April 2022
 client: Confidential
-category: Comprehensive Community Plan
-description: A comprehensive community plan was created for the client. They were happy with it.
+category: Environmental Planning
 ---
+I have supported communities with the development of Environmental Management Plans and liability risk management.
