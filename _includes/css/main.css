@@ -126,44 +126,66 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 0px 0px 60px 0px;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+        padding: 30px 0px 30px 0px;
+        -webkit-transition: padding .5s;
+        -moz-transition: padding .5s;
+        transition: padding .5s;
     }
 
     .navbar-fixed-top .navbar-brand img{
         font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
 		display: none;
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 0px 0px 20px 0px;
+        padding: 10px 0px 10px 0px;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand img {
         font-size: 1.5em;
-		width: 60%;
+		width: 100%;
 		
         -webkit-transition: all 1s;
         -moz-transition: all 1s;
         transition: all 1s;
 		display: inline;
     }
+	
+	.navbar-img-wide {
+		width: 100%
+	}
 }
 
-.navbar-brand {
+#logo-header {
+	display: inline-block !important;
+	width:80%;
+}
+
+#button-header {
+	display: inline-block !important;
+	float: right;
+    padding: 0px 0px 0px 0px;
+	
+}
+
+#bs-example-navbar-collapse-1{
+	float: right;
+	
+}
+
+.navbar-brand  a{
 	padding: 0px 0px 0px 0px;
+	width: 40%;
 }
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 	background-image: url("img/nav_bar.png");
-	background-size: 100%;
+	background-size: cover;
     background-color: #fff;
 }
 
